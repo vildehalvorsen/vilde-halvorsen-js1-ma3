@@ -3,7 +3,7 @@
 }
 
 body {
-    background: rgb(218, 227, 252);
+    background: #acbff5;
     font-family: sans-serif;
 }
 
@@ -36,19 +36,19 @@ h2 {
 }
 
 .error {
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 20px;
     color: #a00505;
     background: #fcc2c2;
-    border: 2px solid #a00505;
+    border: 1px solid #a00505;
     border-radius: 10px;
 }
 
 .fas {
     margin: 50px auto;
     font-size: 3em;
-    color: #3771ee;
-    animation: loader 2s linear infinite;
+    color: #252424;
+    animation: loader 1.8s infinite linear;
 }
 
 @keyframes loader {
