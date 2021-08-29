@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #fff;
+    background: rgb(218, 227, 252);
     font-family: sans-serif;
 }
 
@@ -20,35 +20,38 @@ h2 {
     margin: 50px auto;
 }
 
-.results {
+.games {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.result {
+.gamesinfo {
     margin: 1rem;
     padding: 1rem;
     width: 300px;
-    background: white;
-    border: 1px solid grey;
-    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
 }
 
-li {
-    display: inline;
+.error {
+    margin: 50px auto;
+    padding: 20px;
+    color: #a00505;
+    background: #fcc2c2;
+    border: 2px solid #a00505;
+    border-radius: 10px;
 }
 
-.loader {
-    border: 10px solid #ebebeb;
-    border-top: 10px solid blue;
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    animation: spin 2s linear infinite;
+.fas {
+    margin: 50px auto;
+    font-size: 3em;
+    color: #3771ee;
+    animation: loader 2s linear infinite;
 }
 
-@keyframes spin {
+@keyframes loader {
     0% {
         transform: rotate(0deg);
     }
