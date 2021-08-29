@@ -24,9 +24,12 @@ async function getGames() {
 
             resultsContainer.innerHTML +=
                 `<div class="gamesinfo"> 
-                <h2>Name of game:</h2> ${names}
-                <h2>Rating:</h2> ${ratings}
-                <h2>Amount of tags:</h2> ${tags}
+                <h2>Name of game:</h2> 
+                <p>${names}</p>
+                <h2>Rating:</h2> 
+                <p>${ratings}</p>
+                <h2>Amount of tags:</h2> 
+                <p>${tags}</p>
                 </div>`;
         }
     } catch (error) {
